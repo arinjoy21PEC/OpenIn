@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+.R{
+    display: flex;
+    flex-direction: column;
+}
+}

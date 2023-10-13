@@ -1,0 +1,88 @@
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 680px;
+    margin-top: -550px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  .p{
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+  .social-sign-in {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .google {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.753);
+    align-items: center;
+    padding: 10px;
+  }
+  .google img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+  }
+  .apple {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.753);
+    padding: 10px;
+  }
+  .apple img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    margin-top: -10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .p2{
+    color: #007bff;
+  }
+  button {
+    width: 80px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .blue-text {
+    color: #007bff;
+  }
+ 
+  @media (max-width: 780px){
+    .sign-in{
+        margin-top: 100px;
+        margin-left: -10px;
+    }
+    .apple{
+        display: none;
+    }
+  }

@@ -1,0 +1,43 @@
+.card{
+    text-align: center;
+    width: 440px;
+    margin-left: 820px;
+    margin-top: -320px;
+    height: 280px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(209, 202, 202);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  
+  .circle i {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+  }
+
+  .circle:hover i {
+    transform: scale(1.5);
+  }
+  
+  .addProfileText {
+    margin-top: 10px;
+  }
+
+  .er{
+    margin-left: -840px;
+    margin-top: 300px;
+  }
+  
